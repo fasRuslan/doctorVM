@@ -1,0 +1,16 @@
+.nav-list{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	.nav-list__item-link{
+		text-transform: uppercase;
+		color: white;
+		transition: all .5s ease 0s;
+		&:hover{
+			letter-spacing: 1px;
+			color: #E1785D;
+			border-bottom:2px solid #E1785D;
+		}
+	}
+}

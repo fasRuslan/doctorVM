@@ -1,0 +1,42 @@
+body{
+	background-color:#101213;
+	color: white;
+	font-family: $font-stack,sans-serif;
+}
+
+.header{
+	padding: $sectionPadding;
+}
+
+.button-link{
+	padding: 20px 20px;
+	background-color: #FF8768;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	box-shadow: 0px 4px 33px rgba(255, 135, 104, 0.35);
+	display: inline-block;
+}
+h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 40px;
+	position: relative;
+	z-index: 1;
+	&::after{
+		content:'';
+		position: absolute;
+		top: 66%;
+		left: 0;
+		background-color: #FF8768;
+		width: 203px;
+		height: 11px;
+		z-index: -1;
+	}
+}
+
+h4{
+	font-weight: 900;
+	font-size: 20px;
+	color: white;
+}

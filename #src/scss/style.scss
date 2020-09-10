@@ -1,0 +1,22 @@
+@import "variables";
+@import "reset";
+@import "main__template/main__template";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/mobile__menu";
+@import "blocks/general";
+@import "blocks/diseases";
+@import "blocks/methods";
+@import "blocks/online__programm";
+@import "blocks/footer";
+@import "media/media";
+
+#map {
+	filter: invert(100%);
+	-ms-filter: invert(100%);
+	-webkit-filter: invert(100%);
+	-moz-filter: invert(100%);
+	-o-filter: invert(100%);
+}
+
+.ymaps-2-1-77-image {}

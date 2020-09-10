@@ -1,0 +1,40 @@
+.general{
+	.flex-container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.general__description{
+		width: 45%;
+	}
+	.general__description-title {
+		font-size: $h1__size;
+		font-weight: bold;
+		margin-bottom: 30px;
+	}
+	.general__description-subtitle {
+		font-size: 16px;
+		margin-bottom: 50px;
+	}
+	.general__description-link {
+		margin-bottom: 100px;
+	}
+	.general__description-social {
+	}
+	.social-list {
+		display: flex;
+		align-items: center;
+	}
+	.social-item {
+		padding: 8px 5px;
+		transition: all .5s ease 0s;
+		border: 1px solid #1F1F1F;
+		margin-left: 8px;
+		&:hover{
+			background-color: #FF8768;
+		}
+	}
+	.general__person-img {
+		max-width:550px;
+	}
+}

@@ -1,0 +1,65 @@
+.diseases{
+	padding:$sectionPadding;
+	.diseases__title{
+		margin-bottom: 80px;
+	}
+	.diseases__tabs {
+		
+	}
+	.diseases-tabs {
+		&--flex{
+			display: flex;
+			justify-content: flex-start;
+			align-items: flex-start;
+		}
+	}
+	.diseases-tabs__menu {
+		width: 30%;
+	}
+	.diseases-tabs__item {
+		width: 100%;
+	}
+	.diseases-menu__item-link {
+		font-weight: bold;
+		color: white;
+		padding: 20px 25px;
+		background-color: #1A1D1F;
+		border:1px solid #2D2C2C;
+		transition:all .5s ease-in-out 0s;
+		&--flex{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		&:hover{
+			background-color: #C46A53;
+		}
+	}
+	& .active-link{
+		background-color: #FF8768;
+	}
+	.diseases-tabs__tabs {
+		width: 70%;
+	}
+	.tab {
+		margin-left: 60px;
+		display: none;
+	}
+	.tab__title{
+		font-size: 31px;
+		font-weight: bold;
+		margin-bottom: 22px;
+	}
+	.tab__subtitle{
+		line-height: 27px
+	}
+	.tab__subtitle:not(:last-child){
+		margin-bottom: 20px;
+	}
+	.tab__button{
+		margin-top: 22px;
+	}
+	& .active {
+		display: block;
+	}
+}

@@ -1,0 +1,38 @@
+.online-programm{
+	padding: $sectionPadding;
+	.online-programm__flex-container{
+		display: flex;
+		justify-content: space-between;
+		align-items: start;
+	}
+	.online-programm__description{
+		width: 50%;
+	}
+	.online-programm__title {
+		margin-bottom:23px;
+	}
+	.online-programm__subtitle {
+		margin-bottom:27px;
+	}
+	.programm-subtitle{
+		font-size: 16px;
+		line-height: 151.4%;
+	}
+	.online-programm__consultation-list {
+		margin-bottom: 40px;
+	}
+	.online-programm__consultation-item {
+		margin-bottom: 13px;
+		color: #FF8768;
+		list-style-type: disc;
+	}
+	.consultation-item__title{
+		color: white;
+	}
+	.online-programm__link {
+
+	}
+	.online-programm__person-img{
+		max-width: 500px;
+	}
+}

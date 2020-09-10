@@ -1,0 +1,29 @@
+
+//font__family
+$font-stack:'Montserrat', sans-serif;
+
+
+//Font-Size
+$h1__size: 42px;; 
+$h2__fontSize: 42px;
+$h4__fontSize:20px;
+$link__fontSize:18px;
+$button__fontSize:16px;
+$p__fontSize:16px;
+$span__fontSize:16px;
+
+//sectionPadding
+$sectionPadding:2% 60px;
+
+// Extend
+%h2__styles{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+%subtitle__styles{
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+}
